@@ -1,0 +1,12 @@
+- Modify the .env and .env.local files to add your environmental variables for the server and the client respectively.
+
+Server:
+- Install node modules
+- Run "yarn create:migration" to create migration for mikro-orm.
+- Run "yarn watch" to compile typescript.
+- Run "yarn dev" to run the server in dev mode.
+
+Client:
+- Install node modules
+- run "yarn gen" to generate graphQL schema code.
+- run "yarn dev" to run the server in dev mode.
